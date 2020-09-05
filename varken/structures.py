@@ -167,6 +167,7 @@ class OmbiMovieRequest(NamedTuple):
     requestedUser: dict = None
     requestedUserId: str = None
     requestType: int = None
+    requestStatus: str = None
     rootPathOverride: int = None
     showSubscribe: bool = None
     status: str = None
